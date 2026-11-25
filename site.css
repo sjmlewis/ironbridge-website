@@ -211,6 +211,9 @@ main>section:first-child .btn.solid{background:var(--ac2);border-color:var(--ac2
 .foot{background:var(--dk);color:var(--dk-ink);border-top:0}
 .foot .legal,.foot .copy,.foot .fdesc{color:var(--dk-soft)}
 .founder-pic{display:grid;gap:20px;align-content:start}
+.fhead{margin:0 0 28px}
+.founder{align-items:start}
+.founder .prose>p:first-child{margin-top:0}
 .founder-pic img{display:block;width:100%;max-width:320px;height:auto;border:1.5px solid var(--ink)}
 
 /* where your data goes: boxes in a grid, arrows drawn in the gaps; stacked on narrow screens */
