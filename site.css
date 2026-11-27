@@ -409,8 +409,9 @@ main>section:first-child .btn.solid{background:var(--ac2);border-color:var(--ac2
   .sa::after{left:50%;right:auto;top:auto;bottom:2px;margin:0 0 0 -6px;border-left:6px solid transparent;border-right:6px solid transparent;border-top:10px solid var(--ink);border-bottom:0}
   .sa span{top:0;left:0;position:relative;text-align:left;padding:0 6px 0 calc(50% + 14px)}.send{grid-template-columns:minmax(0,1fr)}}
 
-/* v25: page and section headings in spaced capitals, like the IRONBRIDGE lockup (Stephen, 27 Nov 15:49: it looks stronger) */
-h1,h2{text-transform:uppercase;letter-spacing:.05em}
-h1{font-size:clamp(28px,2.8vw,42px);line-height:1.15}
-h2{font-size:clamp(21px,1.8vw,26px);line-height:1.25}
+/* v26: the menu in spaced capitals, in the serif of the IRONBRIDGE lockup beside it (Stephen, 27 Nov 16:11) */
+.top .nav a{font-family:"Source Serif 4",Georgia,serif;font-weight:600;font-size:14px;letter-spacing:.09em;text-transform:uppercase}
 .lcs{text-transform:none}
+.top .bar{padding-block:10px}
+@media(max-width:1180px){.top .nav{gap:4px 18px}.top .nav a{font-size:13.5px;letter-spacing:.07em}}
+@media(max-width:960px){.top .nav{gap:2px 14px}.top .nav a{font-size:13px;letter-spacing:.05em}.top .nav .navbtn{padding:8px 12px}}
