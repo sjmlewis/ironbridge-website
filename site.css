@@ -429,3 +429,25 @@ main>section:first-child .btn.solid{background:var(--ac2);border-color:var(--ac2
 @media(max-width:1399px){.top .nav{gap:4px 18px}.top .nav a{font-size:14.5px;letter-spacing:.1em}}
 @media(max-width:1180px){.top .nav a{font-size:14px;letter-spacing:.08em}}
 @media(max-width:960px){.top .nav{gap:2px 14px}.top .nav a{font-size:13.5px;letter-spacing:.06em}.top .nav .navbtn{padding:8px 12px}}
+
+/* v30: the UK firms page - what happens to a project, in eight steps; who acts shown by ring style as well as colour */
+.procmap{margin:40px 0 0;padding-top:26px;border-top:1px solid var(--rule)}
+.procmap .ph{margin:0 0 20px}
+.procmap svg{display:block;width:100%;height:auto;margin:0;overflow:visible}
+.procmap .pm-w{max-width:1000px}
+.procmap .pm-n{display:none;max-width:440px}
+.procmap figcaption{max-width:1000px;margin:22px 0 0;font-size:15px;line-height:1.55;color:var(--soft)}
+@media(max-width:959px){.procmap .pm-w{display:none}.procmap .pm-n{display:block}.procmap figcaption{max-width:440px}}
+.procmap text{font-family:"Hanken Grotesk",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;fill:var(--ink)}
+.procmap .ptt{font-size:18px;font-weight:600}
+.procmap .pds{font-size:16px;fill:var(--soft)}
+.procmap .pk{font-size:16px;fill:var(--soft)}
+.procmap .pm-n .pds,.procmap .pm-n .pk{font-size:16.5px}
+.procmap .pnum{font-family:"Source Serif 4",Georgia,serif;font-size:19px;font-weight:600}
+.procmap .pnum.ib{fill:var(--ac-hi)}
+.procmap .pn{fill:#262a2f;stroke:var(--ink);stroke-width:2}
+.procmap .pn.ib{fill:#3a3129;stroke:var(--ac2);stroke-width:2.5}
+.procmap .pn.os{stroke-dasharray:5 4}
+.procmap .pn.k.os{stroke-dasharray:3 3}
+.procmap .pl{fill:none;stroke:var(--soft);stroke-width:1.5;opacity:.75}
+.procmap .pa{fill:none;stroke:var(--soft);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;opacity:.75}
