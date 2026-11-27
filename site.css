@@ -277,6 +277,13 @@ main>section:first-child .btn.solid{background:var(--ac2);border-color:var(--ac2
 .bw2 i{flex:1;height:1px;background:currentColor;opacity:.7}
 .foot .brand{color:var(--dk-ink)}
 
+/* v28: the slim bar above the header with the client sign-in link */
+.util{background:#191c20;border-bottom:1px solid rgba(255,255,255,.08);padding-left:max(5vw,16px);padding-right:max(5vw,16px)}
+.util .wrap{display:flex;justify-content:flex-end;align-items:center;min-height:38px}
+.util a{display:inline-flex;align-items:center;gap:8px;color:var(--dk-ink);text-decoration:none;font-family:"Source Serif 4",Georgia,serif;font-weight:600;font-size:13px;letter-spacing:.1em;text-transform:uppercase;padding:8px 0;border-bottom:2px solid transparent}
+.util a:hover,.util a[aria-current=page]{border-bottom-color:var(--ac2)}
+.util svg{width:15px;height:15px;fill:none;stroke:var(--ac2);stroke-width:1.8;stroke-linecap:round}
+
 /* v24: the UK firms page's drawing - an overseas group's divisions above a dotted line, your UK firm below it; no boxes, no grid */
 .fitmap{margin:10px 0 0;padding:30px 0 0;border-top:1px solid rgba(242,239,233,.14)}
 .fitmap svg{display:block;width:100%;height:auto;margin:0 auto;overflow:visible}
