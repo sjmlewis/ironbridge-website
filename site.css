@@ -277,6 +277,24 @@ main>section:first-child .btn.solid{background:var(--ac2);border-color:var(--ac2
 .bw2 i{flex:1;height:1px;background:currentColor;opacity:.7}
 .foot .brand{color:var(--dk-ink)}
 
+/* v23: the UK firms page - a UK firm, an arrow, and an overseas group's divisions inside a dashed outline */
+.fit{display:grid;grid-template-columns:minmax(0,.85fr) 116px minmax(0,2fr);align-items:start;margin:4px 0 0}
+.fit .sa{height:56px;margin-top:62px}
+.fit .uk{border:2px solid var(--ac);background:#30353b;padding:18px 18px 16px;text-align:center}
+.fit .uk h3{font-size:19px;margin:0 0 6px}
+.fit .uk p:last-child{font-size:15px;line-height:1.45;margin:0;color:var(--soft)}
+.fit .grp{position:relative;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;border:2px dashed var(--ac);padding:42px 14px 14px}
+.fit .dv{border:1.5px solid var(--frame);background:#30353b;padding:12px 14px 13px}
+.fit .dv b{display:block;font-weight:600;font-size:16.5px;line-height:1.3}
+.fit .dv span{display:block;margin-top:3px;font-size:14px;line-height:1.35;color:var(--soft)}
+.fit .dv i{display:inline-block;margin-top:9px;font-style:normal;font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--soft)}
+.fit .dv.hit{border:2px solid var(--ac);background:#3a3129}
+.fit .dv.hit i{color:var(--ac-hi)}
+.fitcap{margin:16px 0 4px;font-size:15px;line-height:1.5;color:var(--soft);max-width:80ch}
+.fit .grp .fl{grid-column:1/-1}
+.helpnote{margin-top:30px;padding-top:16px;border-top:1px solid var(--rule)}
+@media(max-width:900px){.fit{grid-template-columns:minmax(0,1fr)}.fit .sa{height:58px;margin-top:0}.fit .grp{padding-top:14px}}
+
 /* v11-v12: each example is a real photo beside line drawings of the parts inside a product like it (no lines on the photo) */
 .exfig{display:grid;grid-template-columns:minmax(0,1.32fr) minmax(0,1fr);border:1px solid var(--frame);margin:0 0 22px;background:var(--bg)}
 .tphoto{position:relative;min-height:100%}
